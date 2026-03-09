@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8544087301:AAG5zpzLBbuuLm3khbg4c6_GZcqBgSFFy10")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "7693087447"))
-WEB_URL = os.getenv("WEB_URL", "https://dmen-production.up.railway.app/")
+WEB_URL = os.getenv("WEB_URL", "https://dmen2-production.up.railway.app")
 STARS_PRICE = int(os.getenv("STARS_PRICE", "50"))  # 50 Telegram Stars
 
 bot = Bot(token=BOT_TOKEN)
